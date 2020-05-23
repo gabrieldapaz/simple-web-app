@@ -1,0 +1,24 @@
+{
+  "name": "simple-web-app",
+  "version": "1.0.0",
+  "description": "Create a simple web app to then create a Dockerfile, build an image and run it as a container.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieldapaz/simple-web-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrieldapaz/simple-web-app/issues"
+  },
+  "homepage": "https://github.com/gabrieldapaz/simple-web-app#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
